@@ -24,14 +24,13 @@ SIBOやSIFO、IBSやリーキーガット症候群を始めとした、その他
 
 ## ◆ 実装を予定している機能
 
-### ●MVP
+### ● MVP
 - 会員登録
 - ログイン
 - Google認証
 - パスワードリセット
 - 個人情報編集
 - パンくず
-- タグ機能
 - カレンダー機能<br>
   1. 薬(サプリメント)の予定作成・確認・編集・削除ができる。<br>
   2. その日実際に服用した薬(サプリメント)の種類、体調、食事内容、排便に関する記録・確認・編集・削除ができる。<br>
@@ -51,21 +50,21 @@ X軸を日付、Y軸を5段階の評価とし、確認できる項目は消化�
 - プライバシーポリシー
 - 利用規約
 
-### ●その後の機能
+### ● その後の機能
 
 - 入力忘れの際の通知機能
 → メール通知Action Mailerかアプリ内通知(未定)
 - 過去の記録を一覧で閲覧できるレポート機能
   - 検索機能
-
-## ◆ 画面遷移図
-[Figma](https://www.figma.com/design/X7Tav0ad9Q9F0bdIQhvZVm/Cheerful-Belly-App?node-id=0-1&t=fAoPnG5EZOznnSPu-1)
-
+<br><br><br>
+### ● [画面遷移図](https://www.figma.com/design/X7Tav0ad9Q9F0bdIQhvZVm/Cheerful-Belly-App?node-id=0-1&t=fAoPnG5EZOznnSPu-1)
+### ● [ER図](https://drive.google.com/file/d/11v2ecnngEoRfh1qU_l5onrTiewhmpvFg/view?usp=sharing)
+<br><br>
 ## ◆ 使用予定技術
 | カテゴリー | 技術 |
 | --- | --- |
 | サーバーサイド | Ruby<br>Ruby on Rails |
 | データベース | MySQL or PostgreSQL |
 | 開発環境 | Docker |
-| Gem | [Devise](https://github.com/heartcombo/devise)<br>[Omniauth](https://github.com/omniauth/omniauth)<br>[FullCalendar](https://fullcalendar.io/)<br>[ChartKick](https://github.com/ankane/chartkick)<br>[Bootstrap](https://getbootstrap.com/)<br>その他 |
+| Gem | [Devise](https://github.com/heartcombo/devise)<br>[Omniauth](https://github.com/omniauth/omniauth)<br>[Groupdate](https://github.com/ankane/groupdate)<br>[ChartKick](https://github.com/ankane/chartkick)<br>[Bootstrap](https://getbootstrap.com/)<br>その他 |
 | デプロイ | 未定 |
