@@ -24,14 +24,13 @@ SIBOやSIFO、IBSやリーキーガット症候群を始めとした、その他
 
 ## ◆ 実装を予定している機能
 
-### ●MVP
+### ● MVP
 - 会員登録
 - ログイン
 - Google認証
 - パスワードリセット
 - 個人情報編集
 - パンくず
-- タグ機能
 - カレンダー機能<br>
   - 薬(サプリメント)の予定作成・確認・編集・削除ができる。<br>
   - その日実際に服用した薬(サプリメント)の登録・編集・削除<br>
@@ -52,21 +51,17 @@ X軸を日付、Y軸を5段階の評価とし、確認できる項目は消化�
 - プライバシーポリシー
 - 利用規約
 
-### ●その後の機能
+### ● その後の機能
 
 - 記録の登録、編集、削除
 - 入力忘れの際の通知機能
 → メール通知Action Mailerかアプリ内通知(未定)
 - 過去の記録を一覧で閲覧できるアーカイブ機能
   - 検索機能
-- パスワードリセット機能
-- Google認証
-- お問い合わせ
-- おたより箱
-
-## ◆ 画面遷移図
-[Figma](https://www.figma.com/design/X7Tav0ad9Q9F0bdIQhvZVm/Cheerful-Belly-App?node-id=0-1&t=fAoPnG5EZOznnSPu-1)
-
+<br><br><br>
+### ● [画面遷移図](https://www.figma.com/design/X7Tav0ad9Q9F0bdIQhvZVm/Cheerful-Belly-App?node-id=0-1&t=fAoPnG5EZOznnSPu-1)
+### ● [ER図](https://drive.google.com/file/d/11v2ecnngEoRfh1qU_l5onrTiewhmpvFg/view?usp=sharing)
+<br><br>
 ## ◆ 使用予定技術
 | カテゴリー | 技術 |
 | --- | --- |
