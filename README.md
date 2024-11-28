@@ -68,3 +68,4 @@ X軸を日付、Y軸を5段階の評価とし、確認できる項目は消化�
 | 開発環境 | Docker |
 | Gem | [Devise](https://github.com/heartcombo/devise)<br>[Omniauth](https://github.com/omniauth/omniauth)<br>[Group Date](https://github.com/ankane/groupdate)<br>[ChartKick](https://github.com/ankane/chartkick)<br>その他 |
 | デプロイ | Render.com |
+
